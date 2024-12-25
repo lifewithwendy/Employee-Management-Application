@@ -10,8 +10,8 @@ const Header = () => {
         <Container>
             <Navbar.Brand href="/">Employee Management System</Navbar.Brand>
             <Nav className="ml-auto">
-                <Nav.Link as={Link} to="/">Home</Nav.Link>
-                <Nav.Link as={Link} to="/employee">Add Employee</Nav.Link>
+                <Nav.Link as={Link} to="/">Empolyee</Nav.Link>
+                <Nav.Link as={Link} to="/employee">Post Employee</Nav.Link>
                 {/* <Nav.Link as={Link} href="/view">View Employee</Nav.Link> */}
             </Nav>
         </Container>
