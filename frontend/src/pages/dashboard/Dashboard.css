@@ -1,0 +1,22 @@
+.center-form {
+    display: flex;            /* Flexbox for alignment */
+    flex-direction: column;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    min-height: 100vh;        /* Full viewport height */
+    padding: 20px;            /* Optional padding */
+    background-color: #f9f9f9; /* Light background for visibility */
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+  }
+
+  Table thead :last-child {
+    width: 12vw;
+  }  
+
+  Table tbody tr :last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }

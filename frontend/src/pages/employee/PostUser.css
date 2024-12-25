@@ -1,0 +1,21 @@
+.center-form {
+    display: flex;            /* Flexbox for alignment */
+    flex-direction: column;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    min-height: 100vh;        /* Full viewport height */
+    padding: 20px;            /* Optional padding */
+    background-color: #f9f9f9; /* Light background for visibility */
+    width: 100vw;
+    gap: 20px;
+  }
+  
+  .center-form form {
+    width: 100%;             /* Ensure form doesn't exceed its container */
+    max-width: 500px;        /* Set a max width for the form */
+    padding: 20px;           /* Inner padding for spacing */
+    background: #ffffff;     /* White background for the form */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
